@@ -52,7 +52,7 @@ export default function InvitationCard() {
               aria-label="Enlarge invitation artwork"
             >
               {/* Preserved Aspect Ratio Image */}
-              <div className="relative w-full aspect-[1199/1312]">
+              <div className="relative w-full aspect-[935/1024]">
                 <Image
                   src={EVENT_DATA.assets.invitationCard}
                   alt="Mulpuru Family Official Engagement Invitation Artwork"

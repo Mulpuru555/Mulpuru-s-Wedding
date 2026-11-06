@@ -93,7 +93,7 @@ export const EVENT_DATA: EventConfig = {
   },
   shareText: {
     whatsappTemplate:
-      "You are cordially invited to the engagement ceremony of Mulpuru Ashok Rathna & Nalluri Anusha.\n\nDate: 18 November 2026\nTime: 6:00 PM onwards\nVenue: SVS Function Hall, Guntur.\n\nWe look forward to celebrating this beautiful occasion with you!\n\nMulpuru Family",
+      "You are cordially invited to the engagement ceremony of Mulpuru Ashok Rathna & Nalluri Anusha.\n\nDate: 18 November 2026\nTime: 6:00 PM onwards\nVenue: SVS Function Hall, Guntur.\n\nWe look forward to celebrating this beautiful occasion with you!\n\nWith warm regards,\nMulpuru Family.",
   },
   assets: {
     groomPortrait: "/images/groom-portrait.png",

@@ -168,17 +168,10 @@ export default function Countdown() {
       </div>
 
       {/* Special event state banner if today or past */}
-      {mounted && timeLeft.isToday && (
-        <div className="mb-8 p-4 rounded-xl bg-gold-500/20 border border-gold-400 text-gold-200 font-cinzel text-base tracking-wide flex items-center justify-center gap-2">
+      {mounted && (timeLeft.isToday || timeLeft.isPast) && (
+        <div className="mb-8 p-4 rounded-xl bg-burgundy-900/90 border border-gold-400 text-gold-200 font-cinzel text-base md:text-lg tracking-widest flex items-center justify-center gap-2 shadow-gold-glow">
           <Sparkles className="w-5 h-5 text-gold-300 animate-spin-slow" />
-          <span>Today is the Auspicious Day! We look forward to celebrating with you!</span>
-        </div>
-      )}
-
-      {mounted && timeLeft.isPast && !timeLeft.isToday && (
-        <div className="mb-8 p-4 rounded-xl bg-burgundy-800/60 border border-gold-400/30 text-champagne-200 font-cinzel text-base tracking-wide flex items-center justify-center gap-2">
-          <Sparkles className="w-5 h-5 text-gold-300" />
-          <span>The engagement ceremony took place with grand blessings and love!</span>
+          <span>TODAY WE CELEBRATE LOVE AND TOGETHERNESS.</span>
         </div>
       )}
 

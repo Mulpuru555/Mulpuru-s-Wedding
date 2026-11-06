@@ -90,8 +90,8 @@ export default function LightboxModal({
               <Image
                 src={imageSrc}
                 alt={imageAlt}
-                width={1199}
-                height={1312}
+                width={935}
+                height={1024}
                 className="w-auto h-auto max-h-[85vh] max-w-full object-contain mx-auto"
                 priority
               />

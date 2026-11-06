@@ -36,7 +36,7 @@ export default function ShareInvitation() {
 
   const getFullShareMessage = () => {
     const url = getCleanShareUrl();
-    return `${EVENT_DATA.shareText.whatsappTemplate}\n\nWebsite: ${url}`;
+    return `${EVENT_DATA.shareText.whatsappTemplate}\n\n${url}`;
   };
 
   const handleWhatsAppShare = () => {
