@@ -78,7 +78,7 @@ export default function Countdown() {
   const getGoogleCalendarUrl = () => {
     const title = encodeURIComponent("Engagement Ceremony: Mulpuru Ashok Rathna & Nalluri Anusha");
     const details = encodeURIComponent(
-      "Mulpuru Family cordially invites you to the Engagement Ceremony of Mulpuru Ashok Rathna with Nalluri Anusha.\n\nVenue: SVS Function Hall, Guntur, Andhra Pradesh\nMaps: https://maps.app.goo.gl/1xRrgjNEFRNTgzZG9"
+      `Mulpuru Family cordially invites you to the Engagement Ceremony of Mulpuru Ashok Rathna with Nalluri Anusha.\n\nVenue: SVS Function Hall, Guntur, Andhra Pradesh\nMaps: ${EVENT_DATA.venue.mapUrl}`
     );
     const location = encodeURIComponent("SVS Function Hall, Guntur, Andhra Pradesh, India");
     // Start: 20261118T123000Z (6:00 PM IST), End: 20261118T173000Z (11:00 PM IST)
@@ -100,7 +100,7 @@ export default function Countdown() {
       "DTSTART:20261118T123000Z",
       "DTEND:20261118T173000Z",
       "SUMMARY:Engagement Ceremony: Mulpuru Ashok Rathna & Nalluri Anusha",
-      "DESCRIPTION:Mulpuru Family cordially invites you to the Engagement Ceremony of Mulpuru Ashok Rathna with Nalluri Anusha.\\n\\nVenue: SVS Function Hall, Guntur.\\nMaps: https://maps.app.goo.gl/1xRrgjNEFRNTgzZG9",
+      `DESCRIPTION:Mulpuru Family cordially invites you to the Engagement Ceremony of Mulpuru Ashok Rathna with Nalluri Anusha.\\n\\nVenue: SVS Function Hall, Guntur.\\nMaps: ${EVENT_DATA.venue.mapUrl}`,
       "LOCATION:SVS Function Hall, Guntur, Andhra Pradesh, India",
       "STATUS:CONFIRMED",
       "END:VEVENT",

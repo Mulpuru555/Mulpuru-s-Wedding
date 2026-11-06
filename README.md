@@ -13,7 +13,7 @@ A luxury, cinematic, mobile-first digital engagement invitation website designed
 - **Date**: Wednesday, 18 November 2026
 - **Time**: 6:00 PM onwards (`Asia/Kolkata` / IST)
 - **Venue**: SVS Function Hall, Guntur, Andhra Pradesh, India
-- **Google Maps**: [https://maps.app.goo.gl/1xRrgjNEFRNTgzZG9](https://maps.app.goo.gl/1xRrgjNEFRNTgzZG9)
+- **Google Maps**: [https://maps.app.goo.gl/U82VqzMEfGEK3Zvx8](https://maps.app.goo.gl/U82VqzMEfGEK3Zvx8)
 - **Language**: English only
 
 ---

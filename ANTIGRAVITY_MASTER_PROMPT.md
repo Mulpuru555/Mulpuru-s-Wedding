@@ -13,7 +13,7 @@ Build a complete, polished, responsive digital engagement invitation website for
 - Time: 6:00 PM onwards
 - Time zone: Asia/Kolkata
 - Venue: SVS Function Hall, Guntur, Andhra Pradesh, India
-- Google Maps destination: https://maps.app.goo.gl/1xRrgjNEFRNTgzZG9
+- Google Maps destination: https://maps.app.goo.gl/U82VqzMEfGEK3Zvx8
 - Language: English only
 
 Do not change spellings, date, time, venue, or map URL. Do not invent parents' names, RSVP phone numbers, bride photographs, or other personal details.

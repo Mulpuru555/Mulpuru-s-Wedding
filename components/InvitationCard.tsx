@@ -52,13 +52,13 @@ export default function InvitationCard() {
               aria-label="Enlarge invitation artwork"
             >
               {/* Preserved Aspect Ratio Image */}
-              <div className="relative w-full aspect-[2/3] sm:aspect-[3/4.2]">
+              <div className="relative w-full aspect-[1199/1312]">
                 <Image
                   src={EVENT_DATA.assets.invitationCard}
                   alt="Mulpuru Family Official Engagement Invitation Artwork"
                   fill
-                  sizes="(max-width: 640px) 90vw, 500px"
-                  className="object-contain transition-transform duration-700 group-hover:scale-[1.02]"
+                  sizes="(max-width: 640px) 95vw, 600px"
+                  className="object-contain transition-transform duration-700 group-hover:scale-[1.01]"
                 />
               </div>
 

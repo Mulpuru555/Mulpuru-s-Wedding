@@ -171,7 +171,7 @@ export default function AnimatedLocation() {
             <div className="rounded-xl overflow-hidden border border-gold-400/25 aspect-[16/9] sm:aspect-[21/9] w-full bg-burgundy-950">
               <iframe
                 title="SVS Function Hall Guntur Location Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.4!2d80.4365!3d16.3067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a755cb99b823b%3A0x6b107e052447936a!2sSVS%20Function%20Hall!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1914.7!2d80.4498833!3d16.314072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a7554414998c1%3A0x3fef0d099534db2d!2sSVS%20Function%20hall%20%2F%20Sathuluri%20Venkataratnam%20Subbaravamma%20Garla%20Kalyanamandapam!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
                 className="w-full h-full border-0 filter contrast-[1.05] opacity-90 hover:opacity-100 transition-opacity"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"

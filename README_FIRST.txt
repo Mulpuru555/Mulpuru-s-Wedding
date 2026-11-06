@@ -19,7 +19,7 @@
 - Date: Wednesday, 18 November 2026
 - Time: 6:00 PM onwards (Asia/Kolkata)
 - Venue: SVS Function Hall, Guntur, Andhra Pradesh
-- Maps: https://maps.app.goo.gl/1xRrgjNEFRNTgzZG9
+- Maps: https://maps.app.goo.gl/U82VqzMEfGEK3Zvx8
 - Language: English only
 
 No parents' names or RSVP number were supplied; do not invent them.

@@ -116,14 +116,14 @@ export default function HeroSection() {
               <div className="absolute -inset-2 rounded-2xl bg-gradient-to-b from-gold-400/30 via-burgundy-600/20 to-gold-500/30 blur-md opacity-70 group-hover:opacity-100 transition-opacity duration-700" />
 
               <div className="relative rounded-2xl p-2 bg-gradient-to-b from-gold-400 via-gold-600 to-gold-800 shadow-2xl">
-                <div className="relative rounded-xl overflow-hidden bg-burgundy-950 border border-gold-400/40 aspect-[4/5] sm:aspect-[3/4]">
+                <div className="relative rounded-xl overflow-hidden bg-burgundy-950 border border-gold-400/40 aspect-[3/4]">
                   <Image
                     src={EVENT_DATA.assets.groomPortrait}
                     alt="Mulpuru Ashok Rathna - Groom Portrait"
                     fill
-                    sizes="(max-width: 768px) 90vw, 400px"
+                    sizes="(max-width: 768px) 90vw, 420px"
                     priority
-                    className="object-cover object-top filter brightness-[1.02] contrast-[1.03] transition-transform duration-700 group-hover:scale-[1.02]"
+                    className="object-cover object-top transition-transform duration-700 group-hover:scale-[1.01]"
                   />
 
                   {/* Gentle gradient vignette overlay */}

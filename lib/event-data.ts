@@ -83,7 +83,7 @@ export const EVENT_DATA: EventConfig = {
     state: "Andhra Pradesh",
     country: "India",
     fullDisplay: "SVS Function Hall, Guntur, Andhra Pradesh",
-    mapUrl: "https://maps.app.goo.gl/1xRrgjNEFRNTgzZG9",
+    mapUrl: "https://maps.app.goo.gl/U82VqzMEfGEK3Zvx8",
   },
   invitationMessage: {
     paragraph1:
