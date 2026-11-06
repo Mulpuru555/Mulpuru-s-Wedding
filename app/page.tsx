@@ -17,6 +17,15 @@ import AmbientMusic from "@/components/AmbientMusic";
 export default function Home() {
   const [isOpened, setIsOpened] = useState(false);
 
+  React.useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      if (params.get("skipIntro") === "true") {
+        setIsOpened(true);
+      }
+    }
+  }, []);
+
   return (
     <main className="relative min-h-screen bg-burgundy-950 text-ivory overflow-x-hidden selection:bg-burgundy-700 selection:text-gold-200">
       {/* 1. Elegant Opening Experience Overlay */}

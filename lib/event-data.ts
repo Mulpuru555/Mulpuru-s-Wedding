@@ -45,6 +45,7 @@ export interface EventConfig {
     groomPortrait: string;
     invitationCard: string;
     ringExchangeReference: string;
+    ringExchangeCouple: string;
   };
 }
 
@@ -99,5 +100,6 @@ export const EVENT_DATA: EventConfig = {
     groomPortrait: "/images/groom-portrait.png",
     invitationCard: "/images/engagement-invitation.png",
     ringExchangeReference: "/images/ring-exchange-reference.png",
+    ringExchangeCouple: "/images/ring-exchange-couple.png",
   },
 };
