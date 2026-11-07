@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Mulpuru Family — Engagement Ceremony | Ashok Rathna & Anusha",
   description:
     "With the blessings of the Almighty and our beloved elders, we cordially invite you and your family to grace the engagement ceremony of Mulpuru Ashok Rathna with Nalluri Anusha on Wednesday, 18 November 2026 at SVS Function Hall, Guntur.",
-  metadataBase: new URL("https://mulpuru-engagement.vercel.app"),
+  metadataBase: new URL("https://mulpuru-s-wedding.onrender.com"),
   openGraph: {
     title: "Engagement Ceremony — Mulpuru Ashok Rathna & Nalluri Anusha",
     description:

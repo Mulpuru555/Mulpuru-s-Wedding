@@ -13,7 +13,7 @@ export default function QRCodeSection() {
   const [copied, setCopied] = useState(false);
 
   // Production canonical deployment URL
-  const PRODUCTION_CANONICAL_URL = "https://mulpuru-engagement.vercel.app";
+  const PRODUCTION_CANONICAL_URL = "https://mulpuru-s-wedding.onrender.com";
 
   useEffect(() => {
     setMounted(true);

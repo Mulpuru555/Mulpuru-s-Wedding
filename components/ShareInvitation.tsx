@@ -31,7 +31,7 @@ export default function ShareInvitation() {
         return window.location.origin;
       }
     }
-    return "https://mulpuru-engagement.vercel.app";
+    return "https://mulpuru-s-wedding.onrender.com";
   };
 
   const getFullShareMessage = () => {
