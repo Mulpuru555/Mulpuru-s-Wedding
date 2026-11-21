@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import PostEngagementHoldingPage from "@/components/PostEngagementHoldingPage";
 import OpeningExperience from "@/components/OpeningExperience";
 import HeroSection from "@/components/HeroSection";
 import Countdown from "@/components/Countdown";
@@ -15,11 +16,15 @@ import Footer from "@/components/Footer";
 import AmbientMusic from "@/components/AmbientMusic";
 
 export default function Home() {
+  const [viewMode, setViewMode] = useState<"holding" | "full">("holding");
   const [isOpened, setIsOpened] = useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (typeof window !== "undefined") {
       const params = new URLSearchParams(window.location.search);
+      if (params.get("fullInvitation") === "true") {
+        setViewMode("full");
+      }
       if (params.get("skipIntro") === "true") {
         setIsOpened(true);
       }
@@ -28,47 +33,33 @@ export default function Home() {
 
   return (
     <main className="relative min-h-screen bg-burgundy-950 text-ivory overflow-x-hidden selection:bg-burgundy-700 selection:text-gold-200">
-      {/* 1. Elegant Opening Experience Overlay */}
-      <OpeningExperience
-        isOpen={isOpened}
-        onOpen={() => setIsOpened(true)}
-      />
+      {viewMode === "holding" ? (
+        /* Post-Engagement Thank You & Marriage Update Holding View */
+        <PostEngagementHoldingPage />
+      ) : (
+        /* Full Engagement Archive View */
+        <>
+          <OpeningExperience
+            isOpen={isOpened}
+            onOpen={() => setIsOpened(true)}
+          />
+          <div className={`transition-opacity duration-1000 ${isOpened ? "opacity-100" : "opacity-90"}`}>
+            <HeroSection />
+            <Countdown />
+            <RingExchange />
+            <InvitationMessage />
+            <EventDetails />
+            <AnimatedLocation />
+            <InvitationCard />
+            <ShareInvitation />
+            <QRCodeSection />
+            <Footer />
+          </div>
+        </>
+      )}
 
-      {/* Main Invitation Website Content */}
-      <div className={`transition-opacity duration-1000 ${isOpened ? "opacity-100" : "opacity-90"}`}>
-        {/* 2. Hero Section */}
-        <HeroSection />
-
-        {/* 3. Live Countdown Section */}
-        <Countdown />
-
-        {/* 4. Ring-Exchange Moment */}
-        <RingExchange />
-
-        {/* 5. Invitation Message */}
-        <InvitationMessage />
-
-        {/* 6. Event Details */}
-        <EventDetails />
-
-        {/* 7. Signature Animated Location Section */}
-        <AnimatedLocation />
-
-        {/* 8. Official Invitation Artwork Card & Lightbox */}
-        <InvitationCard />
-
-        {/* 9. Sharing Options */}
-        <ShareInvitation />
-
-        {/* 10. QR Code Section */}
-        <QRCodeSection />
-
-        {/* 11. Footer */}
-        <Footer />
-
-        {/* Ambient Raga / Tanpura Drone Audio Control */}
-        <AmbientMusic />
-      </div>
+      {/* Ambient Indian Classical Music Player */}
+      <AmbientMusic />
     </main>
   );
 }
